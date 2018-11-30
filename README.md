@@ -3,7 +3,7 @@ this repository belongs to my database class project's
 
 In this project, I run neo4j with docker container.
 
->> docker run \
+docker run \
 --publish=7474:7474 --publish=7687:7687 \
 --volume=$HOME/data:/data \
 neo4j
